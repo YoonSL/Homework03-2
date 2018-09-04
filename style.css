@@ -1,0 +1,456 @@
+body{
+    height:100vh;
+    background-color: grey;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+header{
+    color:white;
+    font-family: 'Sonsie One', cursive;
+    text-align:center;
+    margin:40px;
+}
+main{
+    height:90vh;
+    padding:10px;
+}
+.mainPage{
+    display:grid;
+    height:100%;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(6,1fr);
+    grid-gap:10px;
+    color:grey;
+
+}
+.mobile{
+    height:100%;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    grid-row:span 1;
+    grid-column:span 1;
+    border-radius:15px;
+}
+.a{
+    position:relative;
+    left:90px;
+    background-image: url(images/a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+}
+.b{
+    
+    background-image: url(images/b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+}
+.c{
+    background-image: url(images/c.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+}
+.d{
+    background-image: url(images/d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+}
+.e{
+    background-image: url(images/e.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+}
+.f{
+    background-image: url(images/f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 1;
+}
+.g{
+    background-image: url(images/g.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 4 / span 1;
+    grid-column: 2 / span 1;
+}
+.h{
+    background-image: url(images/h.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 5 / span 1;
+    grid-column: 1 / span 1;
+}
+.i{
+    background-image: url(images/i.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 5 / span 1;
+    grid-column: 2 / span 1;
+}
+.j{
+    background-image: url(images/j.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 6 / span 1;
+    grid-column: 1 / span 1;
+}
+.desktop{
+    display:none;
+}
+
+@media only screen and (min-width:600px){
+
+.mainPage{
+    display:grid;
+    height:100%;
+    grid-template-columns:repeat(4,200px);
+    grid-template-rows:repeat(5,100px);
+    grid-gap:10px;
+    color:grey;
+}
+
+header{
+    color:white;
+    font-family: 'Sonsie One', cursive;
+    text-align:left;
+    margin:20px;
+    margin-left:160px;
+}
+
+.desktop{
+    height:100%;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    grid-row:span 1;
+    grid-column:span 1;
+    border-radius:15px;
+}
+
+.a{
+    position:relative;
+    left:150px;
+    background-image: url(images/a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+}
+.b{
+    position:relative;
+    left:150px;
+    background-image: url(images/b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+}
+.c{
+    position:relative;
+    left:150px;
+    background-image: url(images/c.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 1 / span 1;
+    grid-column: 3 / span 1;
+}
+.d{
+    position:relative;
+    left:150px;
+    background-image: url(images/d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 1 / span 1;
+    grid-column: 4 / span 1;
+}
+.e{
+    background-image: url(images/e.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+}
+.f{
+    background-image: url(images/f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+}
+.g{
+    background-image: url(images/g.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 1;
+}
+.h{
+    background-image: url(images/h.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 2 / span 1;
+    grid-column: 4 / span 1;
+}
+.i{
+    background-image: url(images/i.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+}
+.j{
+    background-image: url(images/j.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+}
+.k{
+    background-image: url(images/k.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 3 / span 1;
+    grid-column: 4 / span 1;
+}
+.l{
+    background-image: url(images/l.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 1;
+}
+.m{
+    background-image: url(images/m.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 4 / span 1;
+    grid-column: 3 / span 1;
+}
+.n{
+    background-image: url(images/n.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 4 / span 1;
+    grid-column: 4 / span 1;
+}
+.o{
+    background-image: url(images/o.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 5 / span 1;
+    grid-column: 1 / span 1;
+}
+.p{
+    background-image: url(images/p.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 5 / span 1;
+    grid-column: 2 / span 1;
+}
+.q{
+    background-image: url(images/q.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45% 58%;
+    grid-row: 5 / span 1;
+    grid-column: 3 / span 1;
+}
+}
+
+@media only screen and (min-width:1100px){
+
+    .mainPage{
+        display:grid;
+        height:100%;
+        grid-template-columns:repeat(5,250px);
+        grid-template-rows:repeat(4,125px);
+        grid-gap:10px;
+        color:grey;
+    }
+
+    .a{
+        position:relative;
+        left:150px;
+        background-image: url(images/a.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+    }
+    .b{
+        position:relative;
+        left:150px;
+        background-image: url(images/b.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 1 / span 1;
+        grid-column: 2 / span 1;
+    }
+    .c{
+        position:relative;
+        left:150px;
+        background-image: url(images/c.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 1 / span 1;
+        grid-column: 3 / span 1;
+    }
+    .d{
+        position:relative;
+        left:150px;
+        background-image: url(images/d.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 1 / span 1;
+        grid-column: 4 / span 1;
+    }
+    .e{
+        position:relative;
+        left:150px;
+        background-image: url(images/e.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 1 / span 1;
+        grid-column: 5 / span 1;
+    }
+    .f{
+        background-image: url(images/f.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 2 / span 1;
+        grid-column: 1 / span 1;
+    }
+    .g{
+        background-image: url(images/g.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 2 / span 1;
+        grid-column: 2 / span 1;
+    }
+    .h{
+        background-image: url(images/h.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 2 / span 1;
+        grid-column: 3 / span 1;
+    }
+    .i{
+        background-image: url(images/i.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 2 / span 1;
+        grid-column: 4 / span 1;
+    }
+    .j{
+        background-image: url(images/j.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 2 / span 1;
+        grid-column: 5 / span 1;
+    }
+    .k{
+        position:relative;
+        left:150px;
+        background-image: url(images/k.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 3 / span 1;
+        grid-column: 1 / span 1;
+    }
+    .l{
+        position:relative;
+        left:150px;
+        background-image: url(images/l.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 3 / span 1;
+        grid-column: 2 / span 1;
+    }
+    .m{
+        position:relative;
+        left:150px;
+        background-image: url(images/m.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 3 / span 1;
+        grid-column: 4 / span 1;
+    }
+    .n{
+        position:relative;
+        left:150px;
+        background-image: url(images/n.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 3 / span 1;
+        grid-column: 5 / span 1;
+    }
+    .o{
+        background-image: url(images/o.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 4 / span 1;
+        grid-column: 1 / span 1;
+    }
+    .p{
+        background-image: url(images/p.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 4 / span 1;
+        grid-column: 2 / span 1;
+    }
+    .q{
+        background-image: url(images/q.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45% 58%;
+        grid-row: 4 / span 1;
+        grid-column: 3 / span 1;
+    }
+}
